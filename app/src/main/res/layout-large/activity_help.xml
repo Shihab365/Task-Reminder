@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".HelpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/helpinfo_1"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:text="Otherwise,\n1. Go to your device setting and manually turn on auto start for this app."
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/helpinfo_3"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/autostartbtn_id"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#F44336"
+        android:textStyle="normal|bold"
+        android:text="Auto Start"
+        android:textAllCaps="false"
+        android:layout_width="170dp"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

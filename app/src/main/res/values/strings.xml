@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task Remainder</string>
+
+    <string name="helpinfo_1">
+        If your alarm does not wake up in timely, please click below Auto Start button.
+    </string>
+    <string name="helpinfo_3">
+        2. Turn of battery saver/restriction for this app.
+    </string>
+</resources>

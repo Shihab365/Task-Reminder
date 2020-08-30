@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:weightSum="2"
+    android:layout_width="350dp"
+    android:layout_height="230dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:padding="3dp"
+            android:src="@drawable/icon_bubble"
+            android:layout_width="65dp"
+            android:layout_height="65dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#03203C"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text="Oh shucks!"
+                android:textAllCaps="false"
+                android:textSize="27sp"
+                android:textStyle="bold|normal"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#03203C"
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="No plan added yet, add right now."
+                android:textAllCaps="false"
+                android:textSize="19sp"
+                android:textStyle="normal|bold"
+                android:textColor="#ffffff"
+                android:gravity="center|top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:background="@drawable/dialog_cus_shape"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="Create your first plan "
+                    android:textAllCaps="false"
+                    android:textSize="25sp"
+                    android:textStyle="bold|normal"
+                    android:textColor="#03203C"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/dialog_btn_id"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_btn_bg"
+                    android:src="@drawable/icon_pencil"
+                    android:layout_width="60dp"
+                    android:layout_height="60sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
